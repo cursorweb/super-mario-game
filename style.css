@@ -1,0 +1,86 @@
+.game{
+  position:fixed;
+  top:0;
+  left:0;
+}
+body{
+  font-family:arial, sans-serif;
+}
+.click{
+  width:calc(50% - 4px);
+  height:75vh;
+  font-size:150%;
+  font-weight:bold;
+  cursor:pointer;
+  background:yellow;
+  border:none;
+}
+.click:hover{
+  background:#b3b300;
+}
+.click:focus{
+  outline:0 none;
+}
+.danger{
+  width:calc(100% - 16px);
+  margin-bottom:5px;
+  background:red;
+  border:none;
+  padding:10px;
+  font-size:120%;
+  font-weight:bold;
+  color:white;
+  cursor:pointer;
+}
+.danger:hover{
+  background:#a00;
+}
+.danger:focus{
+  outline:0 none;
+}
+.play{
+  width:calc(100% - 16px);
+  margin-bottom:5px;
+  background:#0f2;
+  border:none;
+  padding:10px;
+  font-size:120%;
+  font-weight:bold;
+  color:#000;
+  cursor:pointer;
+  text-decoration:none;
+  display:block;
+}
+.play:hover{
+  background:#00b418;
+  color:#fff;
+}
+.play:focus{
+  outline:0 none;
+}
+a{
+  width:calc(100% - 16px);
+  margin-bottom:5px;
+  background:#0cf;
+  border:none;
+  padding:10px;
+  font-size:120%;
+  font-weight:bold;
+  color:#000;
+  cursor:pointer;
+  text-decoration:none;
+  display:block;
+}
+a:hover{
+  background:#08a;
+  color:#fff;
+}
+a:focus{
+  outline:0 none;
+}
+.checked{
+  background:orange;
+}
+.checked:hover{
+  background:orange;
+}
